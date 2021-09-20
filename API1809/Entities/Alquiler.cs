@@ -13,7 +13,7 @@ namespace API1809.Entities
         [Column(TypeName = "decimal(10,2)")]
         public decimal Monto { get; set; }
         public DateTime Fecha { get; set; }
-        public int IdCliente { get; set; }
+        public int ClienteId { get; set; }
 
         //propiedad de navegación
         public Cliente cliente { get; set; }
